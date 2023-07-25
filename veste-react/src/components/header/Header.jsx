@@ -31,6 +31,7 @@ const Header = ({cartItems, quantity}) => {
 
   const handleClick = (buttonId) => {
     setActiveButton(buttonId);
+    setIsOpen(!isOpen);
   };
 
   
