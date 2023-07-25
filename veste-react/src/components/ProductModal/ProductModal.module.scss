@@ -1,0 +1,24 @@
+
+
+.bg {
+    // position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(161,21,207, 0.9);
+    .modal {
+        width: 80%;
+        height: 90%;
+        overflow: hidden;
+        padding-top: 200px;
+        background-color: aquamarine;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        z-index: 10;
+        .closeBtn {
+            position: absolute;
+            top: 100px;
+            right: 100px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Spinnaker&display=swap');
+
+.App {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Spinnaker', sans-serif;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif !important;
+  height: 100px;
+}
+
+:root {
+  --clr-grey: rgb(41, 41, 41);
+  --clr-nav-color: rgb(190, 190, 190);
+}
+
+
+/*_________________NAVIGATION___________________*/
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0;
+}
+
+.navbar-toggler {
+  background-color: rgb(89, 89, 89);
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.dropdown-menu {
+  background-color:  rgb(41, 41, 41) !important;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  margin-top: 170px;
+}
+.dropdown-menu a {
+  color: rgb(190, 190, 190) !important;
+}
+.dropdown-menu a:hover, .nav-item a:hover {
+  color: white !important;
+  transition: color 0.3s ease-in;
+}
+@media (max-width: 990px) {
+  .navbar-nav {
+    
+  }
+  .dropdown-menu {
+    margin: 0;
+  }
+  .dropdown-item {
+    height: 45px !important;
+  }
+}
+.dropdown-item:not(:hover) {
+  background-color:  rgb(41, 41, 41);
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown-toggle {
+  cursor: inherit;
+}
+.dropdown-menu a {
+  color: rgb(190, 190, 190);
+}
+.dropdown-menu a:hover {
+  background-color:   rgb(41, 41, 41);
+}
+.dropdown-toggle a:hover {
+  color: rgb(190, 190, 190) !important;
+}
+.dropdown .dropdown-toggle:hover {
+  color: rgb(190, 190, 190) !important;
+}
+
+.active {
+  color: white !important;
+}
+
+/*_____________________________________________________*/
+
+
+
+.back-btn {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.back-btn img {
+  width: 20px;
+  height: 20px;
+}

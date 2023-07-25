@@ -1,0 +1,234 @@
+[
+    {
+    "id": 101,
+    "category": "women",
+    "name": "Product Name",
+    "price": 19.99,
+    "article": "ABC1213",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_1.webp",
+      "./img/women/product_1.webp",
+      "./img/women/product_1.webp",
+      "./img/women/product_1.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 102,
+    "category": "women",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1223",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 103,
+    "category": "women",
+    "name": "Product Name_3",
+    "price": 100.99,
+    "article": "ABC1233",
+    "options": ["XS", "S", "M", "L", "XL"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product. Detailed description of the product. Detailed description of the product. Detailed description of the product.",
+    "photos": [
+      "./img/women/product_3.webp",
+      "./img/women/product_2.webp",
+      "./img/women/product_1.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 104,
+    "category": "women",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1423",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_4.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 105,
+    "category": "women",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1253",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 106,
+    "category": "women",
+    "name": "Product Name_3",
+    "price": 120.99,
+    "article": "ABC1263",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 107,
+    "category": "women",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1273",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 108,
+    "category": "women",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1283",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp",
+      "./img/women/product_2.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 109,
+    "category": "women",
+    "name": "Product Name_3",
+    "price": 120.99,
+    "article": "ABC1293",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 1010,
+    "category": "women",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1123",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 1011,
+    "category": "women",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1223",
+    "options": ["S", "M", "L"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp",
+      "./img/women/product_4.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 1012,
+    "category": "women",
+    "name": "Product Name_3",
+    "price": 110.99,
+    "article": "ABC1263",
+    "options": ["S", "M", "L", "XL"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_3.webp",
+      "./img/women/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  }
+
+]

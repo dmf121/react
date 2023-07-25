@@ -1,0 +1,27 @@
+
+
+
+.subscribe {
+    input, .subscribeBtn {
+        width: 100%;
+        height: 40px;
+    }
+    
+    input {
+        padding-left: 25px;
+    }
+    
+    .subscribeBtn {
+        background-color: #a3c7bd;
+        color: white;
+        border: 1px solid #a3c7bd;
+        font-size: 23px;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+            color: #d8e9e4;
+        }
+    }
+    
+}
+
+

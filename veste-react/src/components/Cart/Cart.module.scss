@@ -1,0 +1,112 @@
+
+
+
+
+.cart {
+   position: relative;
+   width: 100%;
+    z-index: 10;
+    
+    .cartInner {
+        height: 70vh;
+        overflow: auto;
+        padding-bottom: 100px;
+        overflow-x: hidden;
+        .cartItem {
+            display: flex;
+            padding: 20px 0;
+            border-bottom: 1px solid rgb(154, 154, 154);
+            .number {
+                margin: 20px;
+            }
+            
+            .img {
+                // width: 100px;
+                // height: 120px;
+                padding: 0;
+                display: grid;
+                place-items: center;
+                img {
+                    width: 100%;
+                }
+            }
+            &Name {
+                // padding: 0 20px;
+                margin: 0 0 20px;
+            }
+            &Remove {
+                height: 80px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                img {
+                    width: 30px;
+                }
+            }
+            span {
+                font-size: 20px;
+            }
+    
+            &Quantity {
+                width: 25px;
+                padding: 0;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+    .cartBottom {
+        position: absolute;
+        
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(238, 238, 238);
+        width: 98%;
+        left: 0;
+        bottom: 0;
+        min-height: 100px;
+        padding: 15px;
+        .cartBottomButtons {
+            width: 295px;
+        button {
+            height: 60px;
+            width: 125px;
+            margin: 10px;
+            padding: 0 15px;
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .clearBtn {
+            
+            background-color: rgb(223, 109, 109);
+            
+        }
+        .placeBtn {
+            
+            background-color: rgb(89, 164, 103);
+        }
+    }
+    }
+}
+
+@media (max-width: 768px) {
+    .cartInner {
+        padding-bottom: 150px !important;
+    .cartBottomButtons {
+        width: 135px !important;
+    }
+    .cartBottom {
+        button {
+            height: 40px !important;
+            width: 125px !important;
+        }
+    }
+}
+}

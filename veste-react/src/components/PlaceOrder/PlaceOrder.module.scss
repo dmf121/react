@@ -1,0 +1,28 @@
+
+
+
+
+
+.form {
+    input {
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px 15px;
+        resize: none;
+    }
+    .placeBtn {
+        height: 60px;
+        width: 125px;
+        margin-top: 20px;
+        border: none;
+            outline: none;
+            color: white;
+            background-color: rgb(89, 164, 103);
+            border-radius: 5px;
+            text-align: center !important;
+    }
+}

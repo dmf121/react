@@ -1,0 +1,24 @@
+
+.main {
+    background-color: var(--clr-grey);
+}
+
+.tile {
+    height: 440px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tileLeft {
+    background-image: url('../../../../../public/img/bottom_tile_accessories.webp');
+}
+
+.tileRight {
+    background-image: url('../../../../../public/img/bottom_tile_sale.webp');
+}

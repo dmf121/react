@@ -1,0 +1,234 @@
+[
+    {
+    "id": 201,
+    "category": "accessories",
+    "name": "Product Name",
+    "price": 19.99,
+    "article": "ABC1213",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_1.webp",
+      "./img/accessories/product_1.webp",
+      "./img/accessories/product_1.webp",
+      "./img/accessories/product_1.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 202,
+    "category": "accessories",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1223",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_2.webp",
+      "./img/accessories/product_2.webp",
+      "./img/accessories/product_2.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 203,
+    "category": "accessories",
+    "name": "Product Name_3",
+    "price": 100.99,
+    "article": "ABC1233",
+    "options": ["Grey", "White", "Gray", "Black", "Pink"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product. Detailed description of the product. Detailed description of the product. Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_2.webp",
+      "./img/accessories/product_1.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 204,
+    "category": "accessories",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1423",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_4.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_3.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 205,
+    "category": "accessories",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1253",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_5.webp",
+      "./img/accessories/product_5.webp",
+      "./img/accessories/product_5.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 206,
+    "category": "accessories",
+    "name": "Product Name_3",
+    "price": 120.99,
+    "article": "ABC1263",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_6.webp",
+      "./img/accessories/product_6.webp",
+      "./img/accessories/product_6.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 207,
+    "category": "accessories",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1273",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_7.webp",
+      "./img/accessories/product_7.webp",
+      "./img/accessories/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 208,
+    "category": "accessories",
+    "name": "Product Name_2",
+    "price": 21.99,
+    "article": "ABC1283",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_8.webp",
+      "./img/accessories/product_8.webp",
+      "./img/accessories/product_2.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 209,
+    "category": "accessories",
+    "name": "Product Name_3",
+    "price": 120.99,
+    "article": "ABC1293",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_5.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_3.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 2010,
+    "category": "accessories",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1123",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_6.webp",
+      "./img/accessories/product_4.webp",
+      "./img/accessories/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 2011,
+    "category": "accessories",
+    "name": "Product Name_4",
+    "price": 49.99,
+    "article": "ABC1223",
+    "options": ["White", "Gray", "Black"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_8.webp",
+      "./img/accessories/product_4.webp",
+      "./img/accessories/product_4.webp"
+    ],
+    "count": 1,
+    "sale": true,
+    "newPrice": 20.99
+  },
+
+  {
+    "id": 2012,
+    "category": "accessories",
+    "name": "Product Name_3",
+    "price": 110.99,
+    "article": "ABC1263",
+    "options": ["White", "Gray", "Black", "Pink"],
+    "shortDescription": "Short description of the product.",
+    "detailedDescription": "Detailed description of the product.",
+    "photos": [
+      "./img/accessories/product_7.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_3.webp",
+      "./img/accessories/product_4.webp"
+    ],
+    "count": 1,
+    "sale": false,
+    "newPrice": 20.99
+  }
+
+]
