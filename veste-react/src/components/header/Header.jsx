@@ -31,7 +31,7 @@ const Header = ({cartItems, quantity}) => {
 
   const handleClick = (buttonId) => {
     setActiveButton(buttonId);
-    setIsOpen(!isOpen);
+    setIsOpen(false);
   };
 
   
@@ -63,10 +63,10 @@ const Header = ({cartItems, quantity}) => {
                         COLLECTION
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem tag={Link} to="/women">WOMEN</DropdownItem>
-                        <DropdownItem tag={Link} to="/men">MEN</DropdownItem>
-                        <DropdownItem tag={Link} to="/accessories">ACCESSORIES</DropdownItem>
-                        <DropdownItem tag={Link} to="/sale">SALE</DropdownItem>
+                        <DropdownItem tag={Link} to="/women" onClick={() => handleClick(2)}>WOMEN</DropdownItem>
+                        <DropdownItem tag={Link} to="/men" onClick={() => handleClick(2)}>MEN</DropdownItem>
+                        <DropdownItem tag={Link} to="/accessories" onClick={() => handleClick(2)}>ACCESSORIES</DropdownItem>
+                        <DropdownItem tag={Link} to="/sale" onClick={() => handleClick(2)}>SALE</DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
