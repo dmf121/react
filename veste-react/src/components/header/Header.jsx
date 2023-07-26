@@ -42,7 +42,7 @@ const Header = ({cartItems, quantity}) => {
   return (
     <nav className={`${styles.nav} navbar navbar-expand-lg bg-body-tertiary`}>
       <div className="container">
-        <div className='d-flex justify-content-between  w-100'>
+        <div className='d-flex justify-content-between align-items-center w-100'>
           <Link 
             className={`${styles.logo} ${activeButton === 0 ? '' : ''}`} to="/"
             onClick={() => handleClick(0)}
@@ -71,25 +71,25 @@ const Header = ({cartItems, quantity}) => {
                 </UncontrolledDropdown>
                 <NavItem>
                   <Link 
-                    className={` ${activeButton === 2 ? 'active' : ''}`} to='/lookbook'
-                    onClick={() => handleClick(2)}
+                    className={` ${activeButton === 3 ? 'active' : ''}`} to='/lookbook'
+                    onClick={() => handleClick(3)}
                     >LOOKBOOK</Link>
                 </NavItem>
                 <NavItem>
                   <Link 
-                    className={` ${activeButton === 3 ? 'active' : ''}`} to='/customer_care'
-                    onClick={() => handleClick(3)}
+                    className={` ${activeButton === 4 ? 'active' : ''}`} to='/customer_care'
+                    onClick={() => handleClick(4)}
                     >CUSTOMER CARE</Link>
                 </NavItem>
                 <NavItem>
                   <Link 
-                      className={` ${activeButton === 4 ? 'active' : ''}`} to='/visit_us'
-                      onClick={() => handleClick(4)}
+                      className={` ${activeButton === 5 ? 'active' : ''}`} to='/visit_us'
+                      onClick={() => handleClick(5)}
                       >VISIT US</Link>
                 </NavItem>
               </Nav>
             </Collapse> 
-            <div className='d-flex'>
+            <div className='d-flex align-items-center'>
               <Link to='/cart'>
                 <button className={`ml-auto ${styles.cartButton}`}>
                   <img src="../../img/cart.png" alt="" /> 
