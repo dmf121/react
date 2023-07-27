@@ -26,10 +26,10 @@ const Footer = () => {
                 </div>
                 <div className={`${styles.footerSection} col-xl-3 col-lg-3 col-md-3 col-sm-6`}>
                     <h5 className='pb-3'>STAY CONNECTED</h5>
-                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com"><img src="../img/social-media/facebook.png" alt="facebook"  /></a>
-                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com"><img src="../img/social-media/instagram.png" alt="instagram" /></a>
-                    <a target="_blank" rel="noreferrer" href="https://www.twitter.com"><img src="../img/social-media/twitter.png" alt="twitter" /></a>
-                    <a target="_blank" rel="noreferrer" href="https://www.pinterest.com"><img src="../img/social-media/pinterest.png" alt="pinterest" /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com"><img src="../../img/social-media/facebook.png" alt="facebook"  /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com"><img src="../../img/social-media/instagram.png" alt="instagram" /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.twitter.com"><img src="../../img/social-media/twitter.png" alt="twitter" /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.pinterest.com"><img src="../../img/social-media/pinterest.png" alt="pinterest" /></a>
                 </div>
             </div>
         </div>

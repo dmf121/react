@@ -25,16 +25,15 @@ const PlaceOrder = ({onQuantityChange, cartItems}) => {
   return (
     <div>
         <div className="container">
-            
-            <div className="row">
-                <div className={`${styles.form} col-8 mx-auto pb-5`}>
-                <Link onClick={() => navigate(-1)}>
+            <Link onClick={() => navigate(-1)} className='link'>
                             <button className='back-btn'>
                                 <img src="../../img/back-btn.png" alt="" />
                                 Back
                             </button>
-                </Link>
-                            <div className="text-center pt-3 pb-5"><h3>PLACING ORDER</h3></div>
+            </Link>
+            <div className="row">
+                <div className={`${styles.form} col-12 col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto pb-5`}>
+                    <div className="text-center pt-3 pb-5"><h3>PLACING ORDER</h3></div>
                             <input type="text" placeholder='Full Name' value={input1Value} onChange={(e) => setInput1Value(e.target.value)}/>
                             <input type="text" placeholder='Phone Number' value={input2Value} onChange={(e) => setInput2Value(e.target.value)}/>
                             <input type="text" placeholder='Country' value={input3Value} onChange={(e) => setInput3Value(e.target.value)}/>

@@ -40,6 +40,7 @@ a {
 }
 
 
+
 .dropdown-menu {
   background-color:  rgb(41, 41, 41) !important;
   border-radius: 0;
@@ -50,9 +51,10 @@ a {
 .dropdown-menu a {
   color: rgb(190, 190, 190) !important;
 }
-.dropdown-menu a:hover, .nav-item a:hover {
+.dropdown-menu:hover, .nav-item a:hover{
   color: white !important;
   transition: color 0.3s ease-in;
+  
 }
 @media (max-width: 990px) {
   .dropdown-menu {
@@ -77,11 +79,12 @@ a {
 .dropdown-menu a:hover {
   background-color:   rgb(41, 41, 41);
 }
-.dropdown-toggle a:hover {
-  color: rgb(190, 190, 190) !important;
+.dropdown-toggle {
+  cursor: pointer !important;
 }
-.dropdown .dropdown-toggle:hover {
+.dropdown:hover {
   color: rgb(190, 190, 190) !important;
+  cursor: pointer !important;
 }
 
 .active {
@@ -103,4 +106,16 @@ a {
 .back-btn img {
   width: 20px;
   height: 20px;
+}
+
+/*_____________________________________________________*/
+
+
+
+
+
+
+.link {
+  width: 30%;
+  display: block;
 }

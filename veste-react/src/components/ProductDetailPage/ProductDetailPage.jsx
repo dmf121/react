@@ -36,13 +36,13 @@ const ProductDetailPage = ({ currentProduct, onAddToCart }) => {
   return (
     <div>
         <div className="container">
-            <Link onClick={() => navigate(-1)}>
+            <Link onClick={() => navigate(-1)} className='link'>
                 <button className='back-btn'>
                     <img src="../../img/back-btn.png" alt="" />
                     Back
                 </button>
             </Link>
-            <div className="row">
+            <div className={`${styles.page} row`}>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className={styles.image}>
                         <div id="carouselExampleIndicators" className="carousel slide">
@@ -94,10 +94,10 @@ const ProductDetailPage = ({ currentProduct, onAddToCart }) => {
                     </div>
                     
                     <div className="row py-5">
-                        <div className="col-xl-8 col-lg-10 col-md-12 col-sm-10 d-flex justify-content-between">
-                            <div className="col-9"><button className={styles.buyButton} onClick={handleAddToCart} disabled={added || selectedOption === ""}>
+                        <div className="col-xl-7 col-lg-10 col-md-11 col-sm-12 col-12 d-flex justify-content-between">
+                            <button className={styles.buyButton} onClick={handleAddToCart} disabled={added || selectedOption === ""}>
                                 { added ? 'ADDED TO CART' : 'ADD TO CART'}
-                                </button></div>
+                            </button>
                         </div>
                     </div>
                     <button className={styles.description} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">

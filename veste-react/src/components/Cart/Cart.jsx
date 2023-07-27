@@ -64,7 +64,7 @@ const Cart = ({ cartItems, onRemoveFromCart, onQuantityChange }) => {
     <div className="container">
          
         <div className={styles.cart}>
-            <Link onClick={() => navigate(-1)}>
+            <Link onClick={() => navigate(-1)} className='link'>
                 <button className='back-btn'>
                     <img src="../../img/back-btn.png" alt="" />
                     Back
