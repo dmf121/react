@@ -1,0 +1,24 @@
+
+
+
+
+.footerLine {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-black);
+}
+
+.footerLogo {
+    background-color: transparent;
+    border: none;
+    color: var(--color-black);
+    padding: 0;
+    text-align: center;
+}
+
+.footerLogo h3 {
+    padding: 0;
+}
+.footerLogo span {
+    padding: 0;
+}

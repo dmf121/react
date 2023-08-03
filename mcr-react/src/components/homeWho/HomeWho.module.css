@@ -1,0 +1,55 @@
+.who {
+    position: relative;
+    height: 900px;
+  }
+ .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    z-index: -200;
+    background-color: var(--color-black);
+  }
+
+  @media (max-width: 1300px) {
+    .who {
+        height: 1000px;
+    }
+    .bg {
+        height: 1000px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .who {
+        height: 1250px;
+    }
+    .bg {
+        height: 1250px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .card-space {
+        display: none;
+    }
+  }
+  
+  .bg img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: -200;
+    opacity: 0.4;
+  }
+
+
+  .lineWhite {
+    width: 40px;
+    height: 1px;
+    background-color: var(--color-white);
+}

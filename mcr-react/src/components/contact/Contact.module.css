@@ -1,0 +1,19 @@
+
+
+.contactImg {
+    overflow: hidden;
+}
+
+.contactImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+textarea {
+    width: 100%;
+    height: 175px;
+    padding: 5px 5px 5px 10px;
+    resize: none;
+    outline: none;
+}

@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+.projectItem {
+    overflow: hidden;
+}
+
+.projectImg {
+    overflow: hidden;
+    width: 100%;
+}
+.projectImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+  .projectImg {
+    background-color: var(--color-black);
+  }
+
+  .projectItem img {
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.projectItem:hover img {
+    opacity: 0.5;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.projectItem:not(hover) img {
+  transform: scale(1);
+}
+
+
+
+
+.modal {
+    width: 100% !important;
+    height: 100% !important;
+}
